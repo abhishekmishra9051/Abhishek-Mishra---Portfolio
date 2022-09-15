@@ -2,21 +2,20 @@ import { useEffect, useState } from "react";
 import Layout from "../../hoc/layout";
 
 //import products from "../../services/json/products.json";
-import {getProductList} from "../../services/product"
-
+import { getProductList } from "../../services/product";
 
 export default function Product() {
-const [products, setProduct] = useState([])
+  const [products, setProduct] = useState([]);
   useEffect(() => {
- getProducts()
-  },[])
+    getProducts();
+  }, []);
 
   const getProducts = async () => {
-    let responce = await getProductList()
-    if(responce.status === 200){
-      setProduct(responce.data)
+    let responce = await getProductList();
+    if (responce.status === 200) {
+      setProduct(responce.data);
     }
-  }
+  };
 
   return (
     <Layout
@@ -32,7 +31,7 @@ const [products, setProduct] = useState([])
               <div class="card">
                 <img src={product.image} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <h5 class={product.productName}>Card title</h5>
+                  <h5 class=" card tille">{product.productName}</h5>
                   <p class="card-text">
                     <strong>${product.price}</strong>
                   </p>
