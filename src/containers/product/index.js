@@ -1,8 +1,23 @@
+import { useEffect, useState } from "react";
 import Layout from "../../hoc/layout";
 
-import products from "../../services/json/products.json";
+//import products from "../../services/json/products.json";
+import {getProductList} from "../../services/product"
+
 
 export default function Product() {
+const [products, setProduct] = useState([])
+  useEffect(() => {
+ getProducts()
+  },[])
+
+  const getProducts = async () => {
+    let responce = await getProductList()
+    if(responce.status === 200){
+      setProduct(responce.data)
+    }
+  }
+
   return (
     <Layout
       headerTitle="Reebok Store"
