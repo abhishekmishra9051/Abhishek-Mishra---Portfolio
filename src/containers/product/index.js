@@ -34,7 +34,7 @@ const [products, setProduct] = useState([])
                 <div class="card-body">
                   <h5 class={product.productName}>Card title</h5>
                   <p class="card-text">
-                    <strong>${product.price.toFixed(2)}</strong>
+                    <strong>${product.price}</strong>
                   </p>
                   <p class="card-text">{product.productDesc}</p>
                   <a href="/" class="btn btn-primary">
