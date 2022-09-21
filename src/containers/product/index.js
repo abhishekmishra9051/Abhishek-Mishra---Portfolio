@@ -41,7 +41,7 @@ export default function Product() {
         ) : (
           products.map((product, key) => {
             return (
-              <div className="col-4 mb-3">
+              <div className=" col-12 col-md-4 mb-3">
                 <div class="card">
                   <img src={product.image} class="card-img-top" alt="..." />
                   <div class="card-body">

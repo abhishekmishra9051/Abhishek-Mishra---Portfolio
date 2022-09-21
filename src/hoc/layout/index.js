@@ -12,8 +12,8 @@ export default function Layout({ headerTitle, headerText, activePage ,children }
 
         <section className="container">
           <div className="row pt-4">
-            <div className="col-9 pe-5">{children}</div>
-            <div className="col-3 px-3">
+            <div className="col-12 md-9 pe-5">{children}</div>
+            <div className="col-12 md-3 px-3">
               <Sidebar />
             </div>
           </div>
