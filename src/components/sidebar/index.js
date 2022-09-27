@@ -20,10 +20,11 @@ export default function Sidebar() {
  
     const handleSubmit = (e) => {
 
-        let validate = false
-        let errs = { ...errors }
         e.preventDefault();
 
+        let validate = false
+        let errs = { ...errors }
+       
         if (fullName.trim() === "") {
             errs.fullName = "Full Name is required."
             validate = true

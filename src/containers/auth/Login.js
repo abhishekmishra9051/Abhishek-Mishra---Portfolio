@@ -20,8 +20,8 @@ export default function Login() {
   const onLogin = async (e) => {
     e.preventDefault();
 
-    let validate = false;
-    let errs = { ...errors };
+    let validate = false
+    let errs = { ...errors }
 
     if (email.trim() === "") {
       errs.email = "Email Address is required.";
@@ -35,14 +35,14 @@ export default function Login() {
     setErrors(errs);
 
     if (validate) {
-      toast("Please fill all the required fields");
-      return;
+      toast("Please fill all the required fields")
+      return
     }
 
     //call api
 
     let response = await userLogin({
-      email,
+      email
     });
 
     if (response.status === 200) {
