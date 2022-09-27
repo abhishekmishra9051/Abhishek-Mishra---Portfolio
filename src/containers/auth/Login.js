@@ -5,6 +5,7 @@ import { toast } from "react-toastify";
 import { useState } from "react";
 import { userLogin } from "../../services/auth";
 import { useNavigate } from "react-router-dom";
+import {setSession} from "../../util/helpers/sessions"
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -63,6 +64,10 @@ export default function Login() {
       toast("User Loggedin Successfully!!");
       setEmail("");
       setPassword("");
+
+      // session storage
+
+      setSession("token",{...user})
 
       navigate("/");
     }

@@ -4,6 +4,7 @@ import Products from './product'
 import Contact from './contact'
 import Login from "./auth/Login"
 import SignUp from "./auth/Signup"
+import MyAccount from "./my-account"
 
 const container = {
     Home,
@@ -11,6 +12,7 @@ const container = {
     Products,
     Contact,
     Login,
-    SignUp
+    SignUp,
+    MyAccount
 }
  export default container;
