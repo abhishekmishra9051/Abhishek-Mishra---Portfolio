@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 import { toast } from "react-toastify";
 import { useState } from "react";
 import {userRegister} from "../../services/auth"
-import {Navigate, useNavigate} from 'react-router-dom'
+import { useNavigate} from 'react-router-dom'
 
 export default function SignUp() {
   const [firstName, setFirstName] = useState("");
