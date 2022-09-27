@@ -17,7 +17,7 @@ export default function Sidebar() {
         phone: "",
         query: ""
     })
-
+ 
     const handleSubmit = (e) => {
 
         let validate = false

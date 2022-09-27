@@ -2,7 +2,7 @@ import Pages from "../containers";
 
 import { Routes as Switch, Route } from "react-router-dom";
 
-const { Home, About, Products, Contact } = Pages;
+const { Home, About, Products, Contact, Login, SignUp } = Pages;
 
 export default function Routes() {
   return (
@@ -10,6 +10,8 @@ export default function Routes() {
       <Route path="/about" element={<About />} />
       <Route path="/product" element={<Products />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/sign-up" element={<SignUp />} />
       <Route path="/" element={<Home />} />
     </Switch>
   );

@@ -33,6 +33,12 @@ export default function Header({headerTitle='Reebok Store', headerText='Welcome 
                             <li class="nav-item">
                                 <Link class={`nav-link ${activePage === 'contact' && 'active'}`} to="/contact">Contact</Link>
                             </li> 
+                            <li class="nav-item">
+                                <Link class={`nav-link ${activePage === 'login' && 'active'}`} to="/login">Login</Link>
+                            </li> 
+                            <li class="nav-item">
+                                <Link class={`nav-link ${activePage === 'signup' && 'active'}`} to="/sign-up">Sign Up</Link>
+                            </li> 
                         </ul>
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
