@@ -4,12 +4,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Added for better box model handling */
+    box-sizing: border-box; 
 }
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #f3f3f3; /* Added a light grey background for contrast */
+    background-color: #f3f3f3; 
 }
 
 html {
@@ -18,7 +18,7 @@ html {
 
 p {
     color: rgb(85, 85, 85);
-    line-height: 1.6; /* Improved readability */
+    line-height: 1.6; 
 }
 
 a,
@@ -36,8 +36,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
-    background-color: #fff; /* Added a white background for contrast */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added a subtle shadow for depth */
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .nav-links {
@@ -137,11 +137,11 @@ a:hover {
     transform: none;
 }
 
-.hamburger-icon span:first-child {
+.hamburger-icon span:nth-child(2) {
     opacity: 1;
 }
 
-.hamburger-icon span:first-child {
+.hamburger-icon span:last-child {
     transform: none;
 }
 
@@ -413,10 +413,7 @@ article .icon {
 
 .email-icon {
     height: 2.3rem;
-
-
 }
-
 
 
 /* Footer Section */
@@ -445,6 +442,7 @@ footer p {
         margin: 0.5rem; 
         color: #909090;
         font-size: 0.8rem; 
+    }
 
     .contact-info-upper-container {
         flex-direction: column; 
@@ -484,7 +482,7 @@ footer p {
     }
 }
 
-/* 
+
 @media only screen and (min-width: 768px) {
     body {
         font-size: 1rem;
@@ -526,5 +524,4 @@ footer p {
     .nav-links {
         flex-direction: row;
     }
-} */
-
+}
