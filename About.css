@@ -428,3 +428,210 @@ footer {
 footer p {
     text-align: center;
 }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 0.8rem;
+    }
+
+    .section-container {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    #profile {
+        flex-direction: column;
+    }
+
+    .section_pic-container {
+        height: 200px;
+        width: 200px;
+    }
+
+    section {
+        margin: 0 1rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .about-container,
+    .experience-details-container,
+    .article-container {
+        flex-direction: column;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    #contact {
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+    }
+}
+
+
+/* @media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        height: 10vh;
+    }
+
+    section {
+        margin: 0 1rem;
+    }
+
+    #profile {
+        height: 70vh;
+    }
+
+ 
+    .section_pic-container {
+        height: 200px;
+        width: 200px;
+    }
+
+
+    .title {
+        font-size: 2rem;
+    }
+
+    
+    .btn {
+        padding: 0.5rem;
+        width: 6rem;
+    }
+
+
+    #about .about-container {
+        flex-direction: column;
+    }
+
+    #experience .experience-details-container {
+        flex-direction: column;
+    }
+
+    #work-experience .contact-info-upper-container {
+        flex-direction: column;
+    }
+
+  
+    #contact {
+        height: 90vh;
+    }
+
+   
+    footer {
+        height: 20vh;
+    }
+} */
+
+
+/* @media only screen and (min-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav {
+        height: 15vh;
+    }
+
+    section {
+        margin: 0 2rem;
+    }
+
+    #profile {
+        height: 75vh;
+    }
+
+    .section_pic-container {
+        height: 300px;
+        width: 300px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        padding: 0.75rem;
+        width: 7rem;
+    }
+
+    #about .about-container {
+        flex-direction: row;
+    }
+
+    #experience .experience-details-container {
+        flex-direction: row;
+    }
+
+    #work-experience .contact-info-upper-container {
+        flex-direction: row;
+    }
+
+    #contact {
+        height: 80vh;
+    }
+
+    footer {
+        height: 24vh;
+    }
+} */
+
+
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .section-container {
+        flex-direction: row;
+    }
+
+    .nav-links {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    .section-container {
+        flex-direction: row;
+    }
+
+    .nav-links {
+        flex-direction: row;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 1.4rem;
+    }
+
+    .section-container {
+        flex-direction: row;
+    }
+
+    .nav-links {
+        flex-direction: row;
+    }
+}
+
