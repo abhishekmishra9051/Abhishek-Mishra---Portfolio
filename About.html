@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek Mishra - Portfolio</title>
+    <link rel="stylesheet" href="About.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Abhishek Mishra</div>
+        <ul class="nav-links" id="desktop-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#work-experience">Experience</a></li>
+            <li><a href="#experience">Skills</a></li>
+        </ul>
+        <div class="hamburger-menu" id="hamburger">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links">
+                <li><a href="./index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#work-experience" onclick="toggleMenu()">MyWorK</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="prof.jpg" alt="" />
+        </div>
+
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Abhishek Mishra</h1>
+            <p class="section_text_p2">Java Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('ResumeFs.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <br />
+            <div class="socials-container">
+                <img src="linkedin_3536569.png" alt="" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/abhishekmishra9051/'" />
+
+                <img src="github_3291695.png" alt="" class="icon"
+                    onclick="location.href='https://github.com/abhishekmishra9051/'" />
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="sideprofile.png" alt="" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="icons8-badge-30.png" alt="" class="icon">
+                        <h3>Experience</h3>
+                        <p>Experienced <br /><b>Backend Development</b></p>
+                    </div>
+
+                    <div class="details-container">
+                        <img src="icons8-badge-30.png" alt="" class="icon">
+                        <h3>Education</h3>
+                        <p>B.tech(CSE) <br> <b>Bachelors Degree</b> </p>
+                    </div>
+
+                </div>
+
+
+                <div class="text-container">
+                    <p>
+
+
+                        Greetings, I am Abhishek Mishra, a fervent Java developer committed to delivering top-notch
+                        digital
+                        experiences. My forte lies in crafting contemporary, user-friendly websites and web applications
+                        that are tailored to meet your distinct requirements.
+                        <br>
+
+                        <b>My Areas of Expertise</b><br>
+
+                        <b>Frontend Development:</b> Transforming designs into responsive, interactive websites.<br>
+                        <b>Backend Development:</b>Building resilient server-side applications.<br>
+                        <b>DevOps:</b> Implementing efficient development operations to ensure seamless deployment and
+                        management of applications.
+
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <img src="icons8-arrow-30.png" alt="" class="icon arrow" onclick="location.href='#experience'">
+    </section>
+
+    <section id="experience">
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="icons8-html-logo.svg" alt="" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="icons8-css-logo.svg" alt="" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="icons8-javascript.svg" alt="" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="icons8-bootstrap.svg" alt="" class="icon">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="icons8-react.svg" alt="" class="icon">
+                            <div>
+                                <h3>ReactJs</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="icons8-tailwind-css.svg" alt="" class="icon">
+                            <div>
+                                <h3>Tailwind CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+
+                        <article>
+                            <img src="icons8-java-94.png" alt="" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="icons8-spring-boot.svg" alt="" class="icon">
+                            <div>
+                                <h3>Spring Boot</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="icons8-git.svg" alt="" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="icons8-mysql.svg" alt="" class="icon">
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="icons8-redis.png" alt="" class="icon">
+                            <div>
+                                <h3>Redis</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="icons8-amazon-aws.png" alt="" class="icon">
+                            <div>
+                                <h3>AWS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <img src="icons8-arrow-30.png" alt="" class="icon arrow" onclick="location.href='#work-experience'">
+
+    </section>
+
+    <section id="work-experience">
+        <p class="section_text_p1">Discover Where I've Worked</p>
+        <h1 class="title">EXPERIENCE</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <div class="details-container color-container">
+                    <!-- MCT Cards details -->
+                    <h2 class="experience-sub-title project-title">MCT Cards, Software Developer (Team Member)</h2>
+                    <p class="time-line">Jan 2024 - Present</p>
+                    <ul class="experience-details">
+                        <li>Implemented a pipeline for auto-registering 500+ mobile NVRs, reducing manual intervention
+                            by 80%.</li>
+                        <li>Applied TDD practices to reduce post-release defects by 20%.</li>
+                        <li>Proficient in video management using NetSDK.</li>
+                        <li>Developed RESTful APIs and backend systems using Kafka.</li>
+                        <li>Mentored junior team members, improving efficiency and quality.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contact-info-container">
+                <div class="details-container color-container">
+                    <!-- XenonStack details -->
+                    <h2 class="experience-sub-title project-title">XenonStack, Associate Software Engineer (Java
+                        Developer)</h2>
+                    <p class="time-line">Feb 2023 - Dec 2023</p>
+                    <ul class="experience-details">
+                        <li>Expert in Java and Spring Boot for high-performance backend services.</li>
+                        <li>Optimized data retrieval and storage efficiency by 40%.</li>
+                        <li>Created and maintained RESTful APIs for seamless communication.</li>
+                        <li>Implemented an efficient searching algorithm, reducing data validation workload by 50%.</li>
+                        <li>Utilized Git, Jira, and Bitbucket for version control and Agile project management.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contact-info-container">
+                <div class="details-container color-container">
+                    <!-- INADEV details -->
+                    <h2 class="experience-sub-title project-title">INADEV, Backend Engineer (Intern + GTE)</h2>
+                    <p class="time-line">Feb 2022 - Jan 2023</p>
+                    <ul class="experience-details">
+                        <li>Developed Software Modules and Solutions using Core Java and Spring Boot.</li>
+                        <li>Coordinated on technical requirements from clients.</li>
+                        <li>Experienced in Agile Development and understanding of Inventory, Supply Chain, and Order
+                            Management Modules.</li>
+                        <li>mplemented new REST Endpoints in the project.</li>
+                        <li>Optimized microservices for scalability, performance, fault tolerance, and resilience.</li>
+                        <li>Reduced system errors by 20% by resolving root causes of issues.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <img src="icons8-arrow-30.png" alt="" class="icon arrow" onclick="location.href='#contact'">
+    </section>
+
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="icons8-email-50.png" alt="Email Icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:abhishekmishra9051@gmail.com" class="contact-a">abhishekmishra9051@gmail.com</a></p>
+            </div>
+
+            <div class="contact-info-container">
+                <img src="linkedin_3536569.png" alt="LinkedIn Icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/abhishekmishra9051/" class="contact-a">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#work-experience">Experience</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <p>Copyright &#169; Abhishek Mishra</p>
+    </footer>
+
+    <script src="About.js"></script>
+</body>
+
+</html>
